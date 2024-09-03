@@ -33,8 +33,7 @@
                     <h3> Indicador Consolidado </h3>
                 </b-card-title>
                 <b-card-body>
-                    <b-table responsive hover :items="tableItems" :fields="tableFields" empty-text="No existen valores"
-                        show-empty />
+                    <b-table responsive hover caption-top sticky-column stacked :items="tableItems" :fields="tableFields" empty-text="No existen valores" show-empty />
 
                     <!-- LINEAR CON TODO Y VALORES -->
                     <!-- <Line :data="lineChartData" :options="lineChartOptions" /> -->
